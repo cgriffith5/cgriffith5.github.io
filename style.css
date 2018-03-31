@@ -1,0 +1,102 @@
+h1 {
+    font-family: "Iowan Old Style", serif;
+}
+h2 {
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    text-align: center;
+}
+li {
+    font-family: "Iowan Old Style", serif;
+    color: white;
+    font-size: 130%;
+}
+h4 {
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 140%;
+}
+p {
+    font-family: "Iowan Old Style", serif;
+    font-size: 120%;
+}
+.container {
+    position: relative; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.container .content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 900px; 
+    padding: 20px; 
+    text-align: right;
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    font-size: 140%;
+}
+.content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 500px; 
+    padding: 20px; 
+    text-align: right;
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    font-size: 140%;
+}
+ {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: white; 
+    color: black;
+    text-align: left;
+    padding: 10px; 
+    font-family: "Iowan Old Style", serif;
+    border-radius: 20px;
+    font-size: 140%;
+}
+h3 {
+    font-family: "Iowan Old Style", serif;
+}
+.footer {
+    position: relative; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 10px; 
+    text-align: left;
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    font-size: 160%;
+    border-radius: 10px;
+}
+li {
+    font-family: "Iowan Old Style", serif;
+    color: black;
+    font-size: 140%
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+h5 {
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 180%
+}
