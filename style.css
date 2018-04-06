@@ -1,43 +1,80 @@
+.imgTitle {
+    overflow: hidden;
+    position: relative;
+}
+
+.imgTitle img {
+    max-width:100%;
+}
+
+.barn {
+    position: relative; 
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.lantern {
+    position: relative; 
+    max-width: 410px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.overlay {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 15px; /* Some padding */
+    text-align: right; 
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    font-size: 140%;
+}
+
+.container {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    max-width: 810px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    text-align: right; 
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    font-size: 140%;
+    color: #f1f1f1;  
+}
+
+.content {
+    display: block;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 0; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    max-width: 410px; 
+    width: 100%;
+    padding: 15px; 
+    text-align: right;
+    font-family: "Iowan Old Style", serif;
+    font-style: italic;
+    font-size: 140%;
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
 }
-.container {
-    position: absolute; 
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    overflow: hidden;
-    bottom: 0; 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 820px; 
-    padding: 20px; 
-    text-align: right;
-    font-family: "Iowan Old Style", serif;
-    font-style: italic;
-    font-size: 140%;
-}
-.content {
-    position: absolute; 
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    overflow: hidden;
-    bottom: 0; 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 410px; 
-    padding: 20px; 
-    text-align: right;
-    font-family: "Iowan Old Style", serif;
-    font-style: italic;
-    font-size: 140%;
-}
+
 .row2 {
   display: flex;
   flex-wrap: wrap;
