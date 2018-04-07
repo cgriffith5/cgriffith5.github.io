@@ -24,7 +24,7 @@
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
+    width: calc(100% - 30px); /* Within margins */
     padding: 15px; /* Some padding */
     text-align: right; 
     font-family: "Iowan Old Style", serif;
